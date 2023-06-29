@@ -23,3 +23,34 @@
                         </ul>
                     </li>
                 <?php } ?>
+
+
+
+
+
+
+slider
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <?php if (has_permissions('read', 'attribute')) { ?>
+                                <li class="nav-item">
+                                    <a href="<?= base_url('admin/attributes/manage-attribute') ?>" class="nav-link">
+                                        <i class="fas fa-sliders-h nav-icon"></i>
+                                        <p>Attributes</p>
+                                    </a>
+                                </li>
+                            <?php } ?>
